@@ -39,4 +39,4 @@ jobs:
             GH_REPO: ${{ github.repository }}
             GH_PR_NUMBER: ${{ github.event.pull_request.id }}
             GH_PR_TITLE: ${{ github.event.pull_request.title }}
-          run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release"
+          run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release
