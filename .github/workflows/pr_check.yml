@@ -30,9 +30,9 @@ jobs:
         with:
           workspaces: "runner_tools/localization"
           cache-all-crates: true
+          prefix-key: "rs_cache"
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-          shared-key: |
-           ${{ runner.os }}-cargo-
+          shared-key: "share"
 
       - name: PR Check
         env:
