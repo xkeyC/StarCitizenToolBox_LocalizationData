@@ -36,4 +36,7 @@ jobs:
         - name: Auto Release
           env:
             GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release --gh-repo "${{ github.repository }}" --gh-pr-number "${{ github.event.pull_request.id }}" --gh-pr-title "${{ github.event.pull_request.title }}"  
+            GH_REPO: ${{ github.repository }}
+            GH_PR_NUMBER: ${{ github.event.pull_request.id }}
+            GH_PR_TITLE: ${{ github.event.pull_request.title }}
+          run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m auto_release"
