@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  rust-check:
+  rust-pr-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "rust"
+          workspaces: "runner_tools/localization"
           cache-all-crates: true
 
       - name: PR Check
