@@ -32,4 +32,9 @@ jobs:
           cache-all-crates: true
 
       - name: PR Check
-        run: cargo run --manifest-path ./runner_tools/localization/Cargo.toml pr_check --release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          GH_PR_NUMBER: ${{ github.event.pull_request.id }}
+          GH_PR_TITLE: ${{ github.event.pull_request.title }}
+        run: cargo run --release --manifest-path ./runner_tools/localization/Cargo.toml -- -m pr_check"
