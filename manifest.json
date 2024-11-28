@@ -1,39 +1,45 @@
 {
   "update_time": "2024-11-28 12:00",
-  "languages": {
-    "chinese_(simplified)": [
-      {
-        "branch": "main",
-        "version": "3.24.2(PU)_CN_V5"
-      },
-      {
-        "branch": "cn_e",
-        "version": "3.24.2(PU)_CNE_V3"
-      },
-      {
-        "branch": "cn_en",
-        "version": "3.24.2(PU)_CNEN_V3"
-      },
-      {
-        "branch": "cn_pinyin",
-        "version": "3.24.2(PU)_CN_PINYIN_V3"
-      },
-      {
-        "branch": "cn_rsui",
-        "version": "3.24.2(PU)_CN_RSUI_V3"
-      },
-      {
-        "branch": "cn",
-        "version": "4.0.0(PTU)_CN_V2"
-      }
-    ],
-    "chinese_(traditional)": [
-      {
-        "branch": "tw",
-        "version": "3.24.3(PU)_TW_V1"
-      }
-    ]
-  },
+  "languages": [
+    {
+      "name": "chinese_(simplified)",
+      "localizations": [
+        {
+          "branch": "main",
+          "version": "3.24.2(PU)_CN_V5"
+        },
+        {
+          "branch": "cn_e",
+          "version": "3.24.2(PU)_CNE_V3"
+        },
+        {
+          "branch": "cn_en",
+          "version": "3.24.2(PU)_CNEN_V3"
+        },
+        {
+          "branch": "cn_pinyin",
+          "version": "3.24.2(PU)_CN_PINYIN_V3"
+        },
+        {
+          "branch": "cn_rsui",
+          "version": "3.24.2(PU)_CN_RSUI_V3"
+        },
+        {
+          "branch": "cn",
+          "version": "4.0.0(PTU)_CN_V2"
+        }
+      ]
+    },
+    {
+      "name": "chinese_(traditional)",
+      "localizations": [
+        {
+          "branch": "tw",
+          "version": "3.24.3(PU)_TW_V1"
+        }
+      ]
+    }
+  ],
   "target_api_repo": "StarCitizenToolBox/Api",
   "target_api_branch": "test"
 }
