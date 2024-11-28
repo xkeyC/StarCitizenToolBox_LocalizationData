@@ -6,6 +6,10 @@
       "localizations": [
         {
           "branch": "main",
+          "version": "4.0.0(PTU)_CN_V0"
+        },
+        {
+          "branch": "main",
           "version": "3.24.3(PU)_CN_V0"
         },
         {
@@ -23,10 +27,6 @@
         {
           "branch": "cn_rsui",
           "version": "3.24.3(PU)_CN_RSUI_V0"
-        },
-        {
-          "branch": "cn",
-          "version": "4.0.0(PTU)_CN_V0"
         }
       ]
     },
