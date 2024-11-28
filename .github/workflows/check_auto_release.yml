@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check runner_tools
+      - name: Checkout runner_tools
         uses: actions/checkout@v4
         with:
           repository: StarCitizenToolBox/runner_tools

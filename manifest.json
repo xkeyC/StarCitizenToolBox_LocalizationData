@@ -6,7 +6,7 @@
       "localizations": [
         {
           "branch": "main",
-          "version": "4.0.0(PTU)_CN_V0"
+          "version": "4.0.0(PTU)_CN_V1"
         },
         {
           "branch": "main",
@@ -14,19 +14,19 @@
         },
         {
           "branch": "cn_e",
-          "version": "3.24.3(PU)_CNE_V0"
+          "version": "3.24.3(PU)_CNE_V4"
         },
         {
           "branch": "cn_en",
-          "version": "3.24.3(PU)_CNEN_V0"
+          "version": "3.24.3(PU)_CNEN_V4"
         },
         {
           "branch": "cn_pinyin",
-          "version": "3.24.3(PU)_CN_PINYIN_V0"
+          "version": "3.24.3(PU)_CN_PINYIN_V4"
         },
         {
           "branch": "cn_rsui",
-          "version": "3.24.3(PU)_CN_RSUI_V0"
+          "version": "3.24.3(PU)_CNRSUI_V1"
         }
       ]
     },
